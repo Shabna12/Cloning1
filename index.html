@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLONING - WEBSITE</title>
+    <link rel="stylesheet" href="./css1.css">
+    <!-- bs link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+ <!-- nav bar -->
+ <div class="container-fluid" id="nav1">
+    <nav class="navbar navbar-expand-lg bg-body-light">
+      <div class="container-fluid" id="nav1">
+       <a href="#"><img width="200px" height="100px" src="./Images/Flipkart-logo.png" alt="" id="nav1"></a> 
+       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button> 
+       <form class="d-flex form-control border-0" role="search"><i id="upicon" class='bx bx-search-alt-2' ></i> 
+        <input id="long" class="form-control ms-5" type="search" placeholder="....  Search for Products, Brands and More"  aria-label="Search"> 
+        <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+       </form>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav me-2 mb-2 mb-lg-0" >
+           <li class="nav-item" id="nav1">
+             <a class="nav-link active" aria-current="page" href="#"><i id="one" class='bx bx-user-circle'></i>Login<i class='bx bx-chevron-down'></i></a>
+           </li>
+           <li class="nav-item" id="nav1">
+            <a class="nav-link active" href="#"><i id="one" class='bx bx-cart' ></i>Cart</a>
+           </li>
+           <li class="nav-item" id="nav1">
+            <a class="nav-link active" href="#"><i id="one" class='bx bx-store'></i>Become a Seller</a>
+           </li>
+           <li class="nav-item" id="nav1">
+            <a class="nav-link active" href="#"><i class='bx bx-dots-vertical-rounded'></i></a>
+           </li>
+         </ul>
+       </div>
+     </div>
+   </nav>
+ </div>
+ <!-- list -->
+ <div class="container-fluid me-3 p-2">
+    <div class="row">
+      <div class="col-lg bg-body-light">
+        <img class="image1" width="70px" height="70px" src="./Images/1.grocery.png" alt="">
+        <a class="link" href=""><p class="p1"><b>Grocery</b></p></a> 
+      </div>
+      <div class="col-lg">
+        <img class="image2" width="70px" height="70px" src="./Images/2.mobile.png" alt="">
+        <a class="link" href=""><p class="p1"><b>Mobiles</b></p></a> 
+      </div>
+      <div class="col-lg">
+        <img class="image3" width="70px" height="70px" src="./Images/3.fashion.png" alt="">
+        <a class="link" href=""><p class="text-center"><b>Fashion<i class='bx bx-chevron-down'></i></b></p></a> 
+      </div>
+      <div class="col-lg">
+        <img class="image4" width="70px" height="70px" src="./Images/4.electronics.png" alt="">
+        <a class="link" href=""> <p class="p1"><b>Electronics<i class='bx bx-chevron-down'></i></b></p></a>
+      </div>
+      <div class="col-lg">
+       <img class="image5" width="70px" height="70px" src="./Images/5.furniture.png" alt="">
+       <a class="link" href=""><p class="p1"><b>Home & Furniture<i class='bx bx-chevron-down'></i></b></p></a> 
+      </div>
+      <div class="col-lg">
+        <img class="image6" width="70px" height="70px" src="./Images/6.appliances.png" alt="">
+        <a class="link" href=""> <p class="p1"><b>Appliances</b></p></a>
+      </div>
+      <div class="col-lg">
+        <img class="image7" width="70px" height="70px" src="./Images/7.travel.png" alt="">
+        <a class="link" href=""><p class="p1"><b>Travel</b></p></a> 
+      </div>
+      <div class="col-lg">
+        <img class="image8" width="70px" height="70px" src="./Images/8.toys.png" alt="">
+        <a class="link" href=""><p><b>Beauty, Toys & More<i class='bx bx-chevron-down'></i></b></p></a> 
+      </div>
+      <div class="col-lg">
+        <img class="image9" width="70px" height="70px" src="./Images/9.2wheelers.png" alt="">
+        <a class="link" href=""><p class="p2"><b>Two-Wheelers<i id="down angle" class='bx bx-chevron-down'></i></b></p></a> 
+      </div>
+    </div>
+ </div>
+ <!-- carousel -->
+ <div class="container-fluid">
+   <div id="carouselExampleIndicators" class="carousel slide carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button> -->
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img width="100%" height="200px" src="./Images/c1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="20000">
+          <img width="100%" height="200px" src="./Images/c2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="20000">
+          <img width="100%" height="200px" src="./Images/c3.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="20000">
+          <img width="100%" height="200px" src="./Images/c4.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item"data-bs-interval="20000">
+          <img width="100%" height="200px" src="./Images/c5.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="20000">
+          <img width="100%" height="200px" src="./Images/c6.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="20000">
+          <img width="100%" height="200px" src="./Images/c7.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+ </div> <br> <br>
+ <!-- Cards 1 with carousel-->
+ <div class="container-fluid">
+   <h4>Best of Electronics</h4> <a href=""><i class='bx bxs-chevron-right-circle' id="sideicon" ></i></a>       <br>
+    <div id="card1carousel" class="carousel slide"  data-bs-ride="carousel" data-bs-theme="dark">
+     <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="100000">
+        <div class="card-wrapper">
+          <div class="card" id="card1" >
+            <img height="200px" src="./Images/camera1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">Instax Mini9</p> <p class="text-center"><b>From ₹4999</b></p>
+            </div>
+          </div>
+          <div class="card" id="card1">
+            <img height="200px" src="./Images/hair1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">Dyson Hair Set</p> <p class="text-center"><b>From ₹7999</b></p>
+            </div>
+          </div>
+          <div class="card" id="card1">
+            <img height="200px" src="./Images/keyboard.png" class="card-img-top" alt="..."> <br>
+            <div class="card-body">
+              <p class="card-text text-center">Keyboard</p> <p class="text-center"><b>From ₹2500</b></p>
+            </div>
+          </div>
+          <div class="card" id="card1">
+            <img class="moni" height="200px" src="./Images/monitor 1.png" class="card-img-top" alt="..."> <br> <br>
+            <div class="card-body">
+              <p class="card-text text-center">Monitors</p>
+              <p class="text-center"><b>From ₹5999</b></p>
+            </div>
+          </div>
+          <div class="card" id="card1">
+            <img class="moni" height="200px" src="./Images/printer.png" class="card-img-top" alt="..."> <br> <br>
+            <div class="card-body">
+              <p class="card-text text-center">Printer</p> <p class="text-center"><b>From ₹3999</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="100000">
+        <div class="card-wrapper">
+          <div class="card" id="card1">
+            <img height="200px" src="./Images/monitor 2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">Monitors</p> <p class="text-center"><b>From ₹7999</b></p>
+            </div>
+          </div>
+          <div class="card" id="card1">
+            <img height="200px" src="./Images/sam tab1.png" class="card-img-top" alt="..."> <br> <br>
+            <div class="card-body">
+              <p class="card-text text-center">Samsung Tab9</p> <p class="text-center"><b>From ₹9999</b></p>
+            </div>
+          </div>
+          <div class="card" id="card1">
+            <img height="200px" src="./Images/sandisk.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">SanDisk Portable</p> <p class="text-center"><b>From ₹2999</b></p>
+            </div>
+          </div>
+          <div class="card" id="card1">
+            <img height="200px" src="./Images/sony_1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">Sony Headset</p> <p class="text-center"><b>From ₹4500</b></p>
+            </div>
+          </div>
+          <div class="card" id="card1">
+            <img height="200px" src="./Images/trimmer.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">Best of Shavers</p> <p class="text-center"><b>From ₹2500</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+     <button class="carousel-control-prev" type="button" data-bs-target="#card1carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+     </button>
+     <button class="carousel-control-next" type="button" data-bs-target="#card1carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+     </button>
+   </div>
+ </div> <br> <br>
+
+ <!-- cards 2 with carousel -->
+ <div class="container-fluid">
+   <h4>Beauty, Food, Toys & More </h4> <a href=""><i class='bx bxs-chevron-right-circle' id="sideicon" ></i></a>       <br>
+   <div id="card2carousel" class="carousel slide" data-bs-ride="carousel" data-bs-theme="dark">
+     <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="100000">
+          <div class="card-wrapper">
+            <div class="card" id="card1">
+              <img class="coffee" height="200px" src="./Images/coffee.png" class="card-img-top" alt="..."> <br> 
+              <div class="card-body">
+                <p class="card-text text-center">Nescafe</p> <p class="text-center"><b>Upto 35% Off</b></p>
+              </div>
+            </div>
+            <div class="card" id="card1">
+              <img height="200px" src="./Images/pen.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center">Stationary</p> <p class="text-center"><b>From ₹49 Onwards</b></p>
+              </div>
+            </div>
+            <div class="card" id="card1">
+              <img height="200px" src="./Images/gear_cycle1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center">Geared Bicycle</p> <p class="text-center"><b>Upto 45% Off</b></p>
+              </div>
+            </div>
+            <div class="card" id="card1">
+              <img class="teddy" height="200px" src="./Images/soft_toys.png" class="card-img-top" alt="..."> <br> 
+              <div class="card-body">
+                <p class="card-text text-center">Soft Toys</p> <p class="text-center"><b>From ₹200 Onwards</b></p>
+              </div>
+            </div>
+            <div class="card" id="card1">
+              <img class="fl" height="200px" src="./Images/f_L.png" class="card-img-top" alt="..."> <br> 
+              <div class="card-body">
+                <p class="card-text text-center">Fair & Lovely BB</p> <p class="text-center"><b>Upto 40% Off</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="100000">
+          <div class="card-wrapper">
+            <div class="card" id="card1">
+              <img class="ec" height="200px" src="./Images/electric_cylce.png" class="card-img-top" alt="..."> <br>
+              <div class="card-body">
+                <p class="card-text text-center">Electric Cycle</p> <p class="text-center"><b>Upto 40% Off</b></p>
+              </div>
+            </div>
+            <div class="card" id="card1">
+              <img class="tea" height="200px" src="./Images/tea_powder.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center">Tea Powder</p> <p class="text-center"><b>Upto 60% Off</b></p>
+              </div>
+            </div>
+            <div class="card" id="card1">
+              <img class="mama" height="200px" src="./Images/mama_earth.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center">Mama Earth 
+                  Face-wash
+                </p> <p class="text-center"><b>From ₹240 Onwards </b></p>
+              </div>
+            </div>
+            <div class="card" id="card1">
+              <img class="massca" height="200px" src="./Images/masccare.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center">Masccare</p> <p class="text-center"><b>From ₹120 Onwards</b></p>
+              </div>
+            </div>
+            <div class="card" id="card1">
+              <img class="beauty" height="200px" src="./Images/beauty.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center">Beauty Kit</p> <p class="text-center"><b>From ₹499 Onwards</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#card2carousel" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+         <span class="visually-hidden">Previous</span>
+       </button>
+       <button class="carousel-control-next" type="button" data-bs-target="#card2carousel" data-bs-slide="next">
+         <span class="carousel-control-next-icon" aria-hidden="true"><box-icon name='chevron-right-square'></box-icon></span>
+         <span class="visually-hidden">Next</span>
+      </button>
+   </div>
+ </div> <br> <br>
+
+ <!--cards 3  -->
+ <div class="container-fluid">
+   <h4>Sports, Healthcare & More</h4> <a href=""><i class='bx bxs-chevron-right-circle' id="sideicon" ></i></a>       <br>
+    <div class="row">
+      <div class="col-lg">
+        <div class="card">
+          <img height="150px" src="./Images/treadmill.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text text-center">Treadmill, Exercise Bikes</p> <p class="text-center"><b>Upto 70% Off</b></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg">
+        <div class="card">
+          <img height="150px" src="./Images/yoga_mat.png" class="card-img-top" alt="..."> <br>
+          <div class="card-body">
+            <p class="card-text text-center">Yoga Mat</p> <p class="text-center"><b>From ₹159</b></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg">
+        <div class="card">
+          <img height="150px" src="./Images/gym_ess.png" class="card-img-top" alt="..."> <br>
+          <div class="card-body">
+            <p class="card-text text-center">Gym Essentials</p> <p class="text-center"><b>From ₹139</b></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg">
+        <div class="card">
+          <img height="150px" src="./Images/book1.png" class="card-img-top" alt="..."> <br>
+          <div class="card-body">
+            <p class="card-text text-center">Self Help Books</p> <p class="text-center"><b>Min 35% Off</b></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg">
+        <div class="card">
+          <img width="50px" height="150px" src="./Images/book.png" class="card-img-top" alt="..."> <br>
+          <div class="card-body">
+            <p class="card-text text-center">Fiction Books</p> <p class="text-center"><b>Upto 70% Off</b></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg">
+        <div class="card">
+          <img height="150px" src="./Images/honey.png" class="card-img-top" alt="..."><br>
+          <div class="card-body">
+            <p class="card-text text-center">Honey</p> <p class="text-center"><b>Upto 75% Off</b></p>
+          </div>
+        </div>
+      </div>
+    </div>
+ </div> <br> <br>
+
+ <!-- cards 4 + photo -->
+ <div class="container-fluid">
+   <div class="row">
+     <div class="col-lg">
+       <h4 class="ms-2">Travel Essentials For You</h4> </h4> <a href=""><i class='bx bxs-chevron-right-circle' id="side1icon" ></i></a>       <br>
+        <div class="row1" id="travel1">
+          <div class="col-lg">
+           <div class="card" id="cardtravel" >
+             <img height="180px" src="./Images/baggage.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center">Suitcases</p> <p class="text-center text-success"><b>Min 70% Off</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card" id="cardtravel" >
+              <img  height="180px" src="./Images/water bottle.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center">Water Bottles</p> <p class="text-center text-success"><b>Special Offer</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row2" id="travel2">
+          <div class="col-lg">
+            <div class="card" id="cardtravel">
+              <img height="200px" src="./Images/car_air.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center">Car Air Freshner</p> <p class="text-center text-success"><b>Min 50% Off</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card" id="cardtravel" >
+              <img height="200px" src="./Images/car_pillow.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-center">Travel Pillows</p> <p class="text-center text-success"><b>Min 50% Off</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+     <div class="col-lg">
+       <img class="samsung img-fluid" src="./Images/samsung.jpg" alt="">
+       <a href=""><button class="now">Explore Now <i class='bx bxs-chevron-right' ></i></button></a>
+     </div>
+   </div>
+ </div> <br> <br>
+
+ <!-- cards 5 -->
+ <div class="container-fluid">
+   <div class="row">
+     <div class="col-lg-4">
+       <h4 class="ms-2">Best of Health & Wellness</h4> </h4> <a href=""><i class='bx bxs-chevron-right-circle' id="side2icon" ></i></a>       <br>
+       <div class="row5.1" id="health1">
+         <div class="col-lg-6">
+           <div class="card" id="setokay">
+             <img height="170px" src="./Images/apple_vinegar.png" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text">Vinegar</p> <p class="text-success"><b>Min 70% Off</b></p>
+             </div>
+           </div>
+         </div>
+         <div class="col-lg-6">
+           <div class="card" id="setokay">
+             <img height="170px" src="./Images/dental_floss.png" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text">Dental Floss</p> <p class="text-success"><b>Min 35% Off</b></p>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="row5.2" id="health2">
+         <div class="col-lg-6">
+           <div class="card" id="setokay">
+             <img height="170px" src="./Images/deo.png" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text">Deodaranr</p> <p class="text-success"><b>Min 20% Off</b></p>
+             </div>
+           </div>
+         </div>
+         <div class="col-lg-6">
+           <div class="card" id="setokay">
+             <img height="170px" src="./Images/mouthwash.png" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text">MouthWash</p> <p class="text-success"><b>Min 65% Off</b></p>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="col-lg-4">
+       <h4 class="ms-3">Most Loved Gifts</h4> </h4> <a href=""><i class='bx bxs-chevron-right-circle' id="side2icon" ></i></a>       <br>
+       <div class="row6.1" id="gift1">
+         <div class="col-lg-6">
+           <div class="card" id="setokay">
+             <img height="180px" src="./Images/mens chapal.jpg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text">Men's Sandles</p> <p class="text-success"><b>Min 35% Off</b></p>
+             </div>
+           </div>
+         </div>
+         <div class="col-lg-6">
+           <div class="card" id="setokay">
+             <img height="180px" src="./Images/shoe22.jpg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text">Men's Sports Shoe</p> <p class="text-success"><b>Min 20% Off</b></p>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="row6.2" id="gift2">
+         <div class="col-lg-6">
+           <div class="card" id="setokay">
+             <img height="200px" src="./Images/mens-bracelets.jpg" class="card-img-top" alt="..."> <br>
+             <div class="card-body">
+               <p class="card-text">Men's Bracelet, Watches</p> <p class="text-success"><b>Min 25% Off</b></p>
+             </div>
+           </div>
+         </div>
+         <div class="col-lg-6">
+           <div class="card" id="setokay">
+             <img height="170px" src="./Images/shoe1.jpg" class="card-img-top" alt="..."> <br> 
+             <div class="card-body">
+               <p class="card-text">Men's Casual Shoes</p> <p class="text-success"><b>Min 40% Off</b></p>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="col-lg-4">
+       <h4 class="ms-3">Season's Top Pick</h4> </h4> <a href=""><i class='bx bxs-chevron-right-circle' id="side2icon" ></i></a>       <br>
+       <div class="row7.1" id="season1">
+         <div class="col-lg-6">
+           <div class="card" id="setokay" >
+             <img height="170px" src="./Images/1.1tshirt.jpg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text">Men's Tshirt</p> <p class="text-success"><b>Min 35% Off</b></p>
+             </div>
+           </div>
+         </div>
+         <div class="col-lg-6">
+           <div class="card" id="setokay">
+             <img height="170px" src="./Images/1.2shoe2.jpg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text">Men's Shoes</p> <p class="text-success"><b>Min 30% Off</b></p>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="row7.2" id="season2">
+          <div class="col-lg-6">
+            <div class="card" id="setokay">
+              <img height="200px" src="./Images/1.3freezer chest.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Freezer Chest</p> <p class="text-success"><b>Min 35% Off</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card" id="setokay">
+              <img height="164px" src="./Images/1.4 bracelet.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Ladies's Bracelets</p> <p class="text-success"><b>Min 45% Off</b></p>
+              </div>
+            </div>
+          </div>
+       </div>
+     </div>
+   </div>
+ </div> <br> <br>
+
+ <!-- cards 6 with carousel-->
+ <div class="container-fluid">
+   <h4>Home & Kitchen Essentials</h4> <a href=""><i class='bx bxs-chevron-right-circle' id="sideicon" ></i></a>       <br>
+   <div id="card6carousel" class="carousel slide" data-bs-ride="carousel">
+     <div class="carousel-inner">
+       <div class="carousel-item active" data-bs-interval="100000">
+         <div class="card-wrapper">
+           <div class="card" id="card1">
+             <img height="200px" src="./Images/c6.1-removebg-preview.png" class="card-img-top" alt="..."> <br><br> 
+             <div class="card-body">
+               <p class="card-text text-center">Wall Decor Items</p> <p class="text-center"><b>Upto 80% Off</b></p>
+             </div>
+           </div>
+           <div class="card" id="card1">
+             <img height="200px" src="./Images/c6.2-removebg-preview.png" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text text-center">Clocks</p> <p class="text-center"><b>Upto 80% Off</b></p>
+             </div>
+           </div>
+           <div class="card" id="card1">
+             <img height="200px" src="./Images/c6.3.png" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text text-center">Showpieces</p> <p class="text-center"><b>Upto 45% Off</b></p>
+             </div>
+           </div>
+           <div class="card" id="card1">
+             <img height="200px" src="./Images/c6.4.jpg" class="card-img-top" alt="...">  
+             <div class="card-body">
+               <p class="card-text text-center">Stickers & Wallpapers</p> <p class="text-center"><b>From ₹299 Onwards</b></p>
+             </div>
+           </div>
+           <div class="card" id="card1">
+             <img height="200px" src="./Images/c6.5-removebg-preview.png" class="card-img-top" alt="..."> 
+             <div class="card-body">
+               <p class="card-text text-center">Decor Lightings</p> <p class="text-center"><b>Upto 40% Off</b></p>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="carousel-item" data-bs-interval="100000">
+         <div class="card-wrapper">
+           <div class="card" id="card1">
+             <img  height="200px" src="./Images/c6.6.jpg" class="card-img-top" alt="..."> 
+             <div class="card-body">
+               <p class="card-text text-center">Paintings</p> <p class="text-center"><b>Upto 35% Off</b></p>
+             </div>
+           </div>
+           <div class="card" id="card1">
+             <img class="tea" height="200px" src="./Images/c6.7.jpeg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text text-center">Steel Utensils</p> <p class="text-center"><b>Upto 50% Off</b></p>
+             </div>
+           </div>
+           <div class="card" id="card1">
+             <img class="bedsheet" src="./Images/c6.8.jpeg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text text-center">BedSheets
+               </p> <p class="text-center"><b>From ₹440 Onwards </b></p>
+             </div>
+           </div>
+           <div class="card" id="card1">
+             <img class="diya" height="200px" src="./Images/c6.9.jpeg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text text-center">Diya, Candles & Holder</p> <p class="text-center"><b>From ₹120 Onwards</b></p>
+             </div>
+           </div>
+           <div class="card" id="card1">
+             <img class="beauty" height="200px" src="./Images/c6.10.jpg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text text-center">Plant Pots</p> <p class="text-center"><b>From ₹250 Onwards</b></p>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <button class="carousel-control-prev" type="button" data-bs-target="#card6carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#card6carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"><box-icon name='chevron-right-square'></box-icon></span>
+        <span class="visually-hidden">Next</span>
+     </button>
+   </div>
+ </div> <br> <br>
+
+ <!-- cards 7 1.2.+photo -->
+ <div class="container-fluid">
+   <div class="row">
+     <div class="col-lg-4">
+       <h4 class="ms-2">Women's Favourite Pick</h4> </h4> <a href=""><i class='bx bxs-chevron-right-circle' id="side2icon" ></i></a>       <br>
+       <div class="row5.1" id="health1">
+         <div class="col-lg-6">
+           <div class="card" id="setokay">
+             <img height="170px" src="./Images/hair dryer1.jpg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text">Hair Dryer</p> <p class="text-success"><b>Special Offer</b></p>
+             </div>
+           </div>
+         </div>
+         <div class="col-lg-6">
+           <div class="card" id="setokay">
+             <img height="170px" src="./Images/lipstick1.jpg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text">Lipsticks</p> <p class="text-success"><b>Min 35% Off</b></p>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="row5.2" id="health2">
+         <div class="col-lg-6">
+           <div class="card" id="setokay">
+             <img height="170px" src="./Images/earring1.jpg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text">Earrings</p> <p class="text-success"><b>Min 60% Off</b></p>
+             </div>
+           </div>
+         </div>
+         <div class="col-lg-6">
+           <div class="card" id="setokay">
+             <img height="170px" src="./Images/cream1.jpg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text">Himalaya Glow Cream</p> <p class="text-success"><b>Min 20% Off</b></p>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="col-lg-4">
+       <h4 class="ms-3">Trending Spots</h4> </h4> <a href=""><i class='bx bxs-chevron-right-circle' id="side2icon" ></i></a>       <br>
+       <div class="row6.1" id="gift1">
+         <div class="col-lg-6">
+           <div class="card" id="setokay">
+             <img height="180px" src="./Images/cooker1.jpg" class="card-img-top" alt="...">
+             <div class="card-body">
+               <p class="card-text">Prestige PC</p> <p class="text-success"><b>Min 40% Off</b></p>
+             </div>
+           </div>
+         </div>
+         <div class="col-lg-6">
+           <div class="card" id="setokay">
+             <img height="220px" src="./Images/heels1.jpg" class="card-img-top" alt="..."> <br> <br>
+             <div class="card-body">
+               <p class="card-text">Ladies Heels</p> <p class="text-success"><b>Special Offer</b></p>
+             </div>
+           </div>
+         </div>
+       </div>
+       <div class="row6.2" id="gift2">
+         <div class="col-lg-6">
+           <div class="card" id="setokay">
+             <img height="150px" src="./Images/men shirt.jpg" class="card-img-top" alt="..."> <br>
+             <div class="card-body">
+               <p class="card-text">Men's Shirt</p> <p class="text-success"><b>Min 50% Off</b></p>
+             </div>
+           </div>
+         </div>
+         <div class="col-lg-6">
+           <div class="card" id="setokay">
+             <img height="170px" src="./Images/lady kurta.jpg" class="card-img-top" alt="..."> <br> 
+             <div class="card-body">
+               <p class="card-text">Kurti's</p> <p class="text-success"><b>Min 30% Off</b></p>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+     <div class="col-lg-4">
+       <img width="400px" height="660px" src="./Images/side long 1.jpg" alt=""><a href=""><button class="now1">Shop Now <i class='bx bxs-chevron-right' ></i></button></a>
+        <p class="onit fw-bolder text-light fs-3"><b>Shop your fashion needs</b></p>
+     </div>
+   </div>
+ </div> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
+
+ <!-- Info Passages -->
+ <div class="container-fluid col-secondary ">
+   <h4>Top Stories : Brand Directory</h4> <br> <br> <br> <br>
+   <p class="text-secondary">MOST SEARCHED FOR ON FLIPKART : valentines day gifts | valentines Gifts for her | valentines gift for him | valentines gift for boyfriend | valentines gift for girlfriend | Fresh Flower Delivery | iPhone15 | iPhone 15 Plus | iPhone 15 Pro Max | Vivo x 100 | Spoyl Store | SAMSUNG Flip5 | SAMSUNG Fold5 | Flipkart Axis Bank Super Elite Credit card | 5G Mobile Phones | Primebook Laptops | Moto Edge 40 | Grievance Redressal | OPPO Reno7 Pro 5G | iPhone 13 | Help Centre | Track Orders | Manage Orders | Return Orders | Gift Cards Store | Flipkart Axis Bank Credit card | Pay Later</p>
+   <p class="text-secondary">MOBILES : Samsung Galaxy S24 5G | Samsung Galaxy S24+ 5G | iPhone 12 64GB | iPhone 12 Pro 512GB | iPhone 12 128GB | Vivo Y15 | SAMSUNG Galaxy S21 FE 5G | Infinix HOT 30i | Realme 10 Pro 5G | MOTOROLA G62 5G | Nothing Phone | REDMI Note 12 Pro 5G | Infinix SMART 7 | Vivo Y12 | Oppo A12 | Motorola 5g Phone | Realme 5g Smartphone | Apple 5g Phone | Iqoo 5g Phone | Oneplus 5g Phones | Vivo 5g Phones | Oppo 5g Smart Phones | Oppo F15 | OppoA31 | Samsung A71 | Samsung A51 | Samsung A31 | iPhone 11 | iPhone 11 Pro | 4G Mobile | Nokia Mobile | Samsung Mobile | iPhone | Oppo Mobile | Vivo Mobile</p>
+   <p class="text-secondary">CAMERA : GoPro Action Camera | Nikon Camera | Canon Camera | Sony Camera | Canon DSLR | Nikon DSLR </p>
+   <p class="text-secondary">LAPTOPS : Asus ROG Ally | MacBook Pro M2 | Premium Laptop | ASUS ROG Strix SCAR 16 (2023) Core i9 13th Gen | ASUS ROG Zephyrus M16 (2023) Core i9 13th Gen | ASUS Zenbook 14 OLED (2022) | Realme Book Prime Core i5 11th Gen | Microsoft Surface Go Pentium 128GB | Apple Laptops | Acer Laptops | Lenovo Laptops | Dell Laptops | Asus Laptops | HP Laptops | Gaming Laptops | 2 in 1 Laptops | Laptops | Dell latest laptops 2022 | HP latest laptops 2022 | Infinix INBook Y1 Plus | SAMSUNG Galaxy Book3 | 12th Gen Intel Core Laptops </p>
+   <p class="text-secondary">TVS : Nokia TV | Panasonic TV | Thomson TV | Mi X Pro | Realme TV | Motorola TV | OnePlus TVs | LG TV | TV | Sony TV | Samsung TV | Android TV | Iffalcon Tv | Mi TV </p>
+   <p class="text-secondary">LARGE APPLIANCES : Television | Washing Machines | Refrigerators | Air Conditioners | Electric Cookers | Electric Jug(Heater) | Induction Cooktops | Inverter / Stabilizer | Irons / Iron Box | Mixer Grinder | Juicer | Wet Grinders | Chimneys | Microwave Ovens | Vacuum Cleaners | Water Purifier | Fan </p>
+   <p class="text-secondary">CLOTHING : Green bridal Lehenga | Tops | Shoes | Sunglassess | Bridal Blouse | Half saree blouse designs | Designer blouses | Blouse designs  | Shirts | Cotton saree blouse designs | Tshirts | Jeans | Sarees | Dresses | One pieces | Groom wedding sherwani | Designer Salwar Suits | Bra | Cotton simple blouse designs | Banarasi saree blouse designs | Stylish blouse astin design | Track Pant | Blouse neck designs | Men kurtas | Party Dresses | palazzo Suits | Anarkali | Gowns | Cut Out dress | Salwar Suits | Kurtis | Designer sarees | Leggings | Shorts | Georgette sarees | Ethnic wear | ippada pattu sareees | Jodhpur pants</p>
+   <p class="text-secondary">FOOTWEAR : Adidas shoes | Reebok shoes | Nike shoes | Puma shoes | Bata Shoes | Sneakers | Womens Boots | Sports shoes | Loafers | Sandals | Looto Sports shoes | Casual shoes | Womens Skechers shoes | Asics Sports shoes | Formal shoes | School shoes </p>
+   <p class="text-secondary">GROCERIES : PhonePe Grocery Voucher | Handwash | Soap | Cashew Nuts | Sunflower Oil | Eggs | Toilet Cleaner | Harpic Toilet Cleaner | Dettol Soap | Mustard Oil | Biscuits | Cheese | Patanjali Atta | Fortune Oil | Aashirvaad Atta | Tea </p>
+   <p class="text-secondary">BEST SELLING ON FLIPKART : Headphones | Best ga geyser | Kitchen geyser | Nutri Blenders | Portable Air Cooler | Best Air Cooler | Bags | Hitachi Refrigerator | Books | Toys | Candles | Helmets | Wall Clocks | Baby Food | Lipsticks | Mask </p>
+   <p class="text-secondary">FURNITURE : Sofas | Beds | Dining sets | Wardrobes | Mattresses | TV units | Tables | Chairs | Shelves | Bean Bags | Office Chairs | Computer Table | Red Sofas | Wakefit Bed | White Sofas | Wakefit Mattresses | Green Sofas | Black sofas | Brown Sofas </p>
+   <p class="text-secondary">BGMH : Wheat Protein | Homeopathy | Cricket | Cycles | Footballs | Treadmills | Christmas Gifts | Fitness Acessories | Online Guitar | Books store | Musical instrument Store | Dabur Chyawanprash | Baidyanath Chyawanprash | Energy Drinks | Toys | Milk Drink Mixes | Rakhi | Chyawanprash | Protein Supplements   </p> <br> <br> <br>
+   <h4 class="text-secondary">Flipkart : The One-stop Shopping Destination</h4> <br>
+   <p class="text-secondary">Flipkart Private Limited is an Indian Multinational e-commerce company, headquartered in Bangalore, and incorporated in Singapore as a private limited company. The company initially focused on online book sales before expanding into other product categories such as consumer electronics, fashion, home essentials, groceries, and lifestyle products.The service competes primarily with Amazon India and domestic rival Snapdeal. <br> <br> As of FY23, Flipkart held a 48% market share in the Indian e-commerce industry. Flipkart has a dominant position in the apparel segment, bolstered by its acquisition of Myntra, and was described as being "neck and neck" with Amazon in the sale of electronics and mobile phones.</p> <br>
+   <h5 class="text-secondary">Flipkart Plus</h5>
+   <p class="text-secondary">The world of Imitless possibilities awaits you - Flipkart Plus was kickstarted as a loyalty reward programme for all its regular customers at zero subscriptions fee. All you need is 500 supercoins to be a part of this service. For every 100 rupees spent on Flipkart order, Plus members earns 4 supercoins & non - -plus members earn 2 supercoins. Free delivery, early access during sales and shopping festivals, exchange offers and priority customer service are the top benefits to a Flipkart Plus member. In short, earn more when you shop more ! <br> <br>
+   What's more. you can even use the Flipkart supercoins for a no. of exciting services, like : <br>
+   An annual Zomato Gold membership <br>
+   An annual Hotstar Premium membership <br>
+   6 months Gaana plus subscription <br>
+   Rupees 550 instant discount on flights on ixigo <br>
+   Check out hhtps://www.flipkart.com/plus/all-offers for the entire list. Terms and conditions apply.  </p> <br>
+   <h5 class="text-secondary">No Cost EMI on Credit Card</h5>
+   <p class="text-secondary">Under this offer, payment through Bank Credit Card can be made for multiple products (eligible for offer) selected in a single cart      provided, (i) the selected tenure for all such selected eligible products are same; and (ii) the total sale price of such selected eligible products (net of applicable discounts) in the cart is more than or equivalent to Rs. 3,000 (Three thousand only).
+   The discount under this offer will be applicable on opting for 'No Cost EMI on Credit Card' option on payment page. The discount under "No Cost EMI on credit card "payment option is being offered exclusively by sellers and does not amount to EMI/interest waiver extended by the bank</p> <br>
+   <h5 class="text-secondary">EMI on Debit Cards</h5>
+   <p class="text-secondary">Did you know debit card holders account for 79.38 crore in the country, while there are only 3.14 crore credit card holders? After enabling EMI on Credit Cards, in another attempt tomake online shopping accessible to everyone, Flipkart introduces EMI on Debit cards, empowering you to shop confidently with us without having to worry about pauses in monthly cash flow. At present, we have partnered with Axis Bank, HDFC Bank, State Bank of India and ICICI Bank for this facility. More power to all our shoppers ! Terms and conditions apply</p> <br>
+   <h4 class="text-secondary">What Can You Buy From Flipkart ?</h4>
+   <h5 class="text-secondary">Mobiles Phones</h5>
+   <p class="text-secondary">From budget phones to state of the art smartphones, we have a mobile for everybody out there. Whether you are looking for larger, fuller screens, power- packed batteries, blazing - fast processors, beautification apps, high-tech selfie cameras or just large internal space, we take care of all the essentials. Shop from top brands, in the country like Samsung, Apple, Oppo, Xiaomi, Realme, Vivo and Honor to name a few. Rest assured, you are buying from only the most reliable names in the market. What's more, with Flipkart's Complete Mobile Protection Plan, you will never again find the need to run around service centres. This plan entails you to a number of post - purchase solutions, starting at asa low as rupees 99 only ! Broken screens, liquid damage to phone, hardware and software glitches, replacements - The Flipkart Complete Mobile Protection covers a comprehensive range of post - purchase problems, with door to door services.</p> <br>
+   <h5 class="text-secondary">Electronics Devices and Accessories</h5>
+   <p class="text-secondary">When it comes to laptops, we are not far behind. Filter among dozens of super - fast operating systems, hard disk capacity, RAM, lifestyle, screen size and many other criterias for personalized results in a flash. All you students out there, confused about what laptop to get ? Our Back to College Store segregates laptops purpose wise (gaming, browsing and research, project work, entertainment, design, multitasking) with recommendations from top brands and industry experts, facilitating a shopping experience that is quicker and simpler. <br> Turn your home into a theatre with a stunning surround sound system. Choose from our elaborate range of Sony home theatres, JBL soundbars and Philips tower speakers for an experience to remember. </p> <br>
+   <h5 class="text-secondary">Large Appliances</h5> 
+   <p class="text-secondary">Sleek TVs, power - saving refrigerators, rapid - cooling ACs, resourceful washibg machines - discover everything you need to run a house under one roof. Our Dependable TV and Appliance Store ensures zero transmit damage, with a replacement guarantee if anything goes wrong: delivery and installation as per your convenience and a double warranty.</p> <br>
+   <h5 class="text-secondary">Small Home Appliances</h5>
+   <p class="text-secondary">Find handy and practical home appliances designed to make your life simpler : Electric kettles, OTGs, microwave ovens, sandwich makers, hand blenders, coffee makers and many more other time - saving appliances that are truly crafted for a quicker lifestyle. Live life king size with these appliances at home.</p> <br>
+   <h5 class="text-secondary">Lifestyle</h5>
+   <p class="text-secondary">Flipkart, 'India ka Fashion Captial', is your one - stop fashion destinations for anything and everything you need to look good. Our exhaustive range of Western and Indian wear, summer and winter clothing, formal and casual footwear, bridal and artificial jewellery, long lasting make up. grooming tools and accessories are sure to sweep you off your feet.Explore our in - house brands like Metronaut, Anmi, and Denizen to name a few for carefully curated designs that are the talk of the town. Get ready to be spoiled for choice. Festivals, office get - togethers, wedding, brunches, or nightware - Flipkart will have your back each time.</p> <br>
+   <h5 class="text-secondary">Home and Furniture</h5>
+   <p class="text-secondary">Moving to a new place is never easy, especially if you are buying new furniture. Beds, sofa sets, dining tables, wardrobes, and TV units - its not easy to set up everything again. With the hundreds of options thrown at you, the ride could be overwhelming. What place is reliable, what furniture will stand the test of time ? These are questions you must ask before you choose a store. Well, our Durability Certified Furniture Store has not only curated a range of furniture keeoing in mind the modern Indian consumer but furniture that comes with a lab certification, ensuring they last you for uo to 10 years.</p> <br>
+   <h5 class="text-secondary">Baby and Kids</h5>
+   <p class="text-secondary">Your kids deserve only the best. From bodysuits, booties, diapers to strollers, if you are an expecting mother or a new mother, you will find everything you need to set sail on a smooth parenting journey with the help of our baby care collections. When it comes to safety, hygiene and comfort, you can rely on us without a second thought. Huggies, Pampers, MamyPoko and Johnson & Johnson : we host only the most - trusted names in the business for your baby.</p> <br>
+   <h5 class="text-secondary">Books, Sports and Games</h5>
+   <p class="text-secondary">Work hard and no play ? We donot believe in that. Get access to best - selling fiction and non - fiction books by your favourite authors, thrilling English and Indian Blockbusters, most - wanted gaming consoles and a tempting range of fitness and sports gadgets and equipment bound to insipre you to get moving.</p> <br>
+   <h5 class="text-secondary">Grocery / Supermart</h5>
+   <p class="text-secondary">Launching into the grocery vertical, Flipkart introduces Supermart that is out to bring everyday essentials close to you. Form pilses, spices, dairy, personal and sanitary care, breakfast essentials, health drinks, spreads, ready to cook, grooming to cleaning agents, we are happy to present everything you need to run a house. Now buy Grocery products for as low as 1 rupee only - our 1 rupee store presents new products every day for a nominal price of 1 rupee only. Terms and conditions apply.</p> 
+ </div> <br> <br>
+
+
+ <!-- Footer -->
+ <footer>
+   <div class="row p-3 bg-dark">
+     <div class="col-lg">
+       <p class="text-secondary">ABOUT <br> </p>
+       <p class="text-light">
+        Contact Us <br>
+        About Us <br>
+        Careers<br>
+        Flipkart Stories<br>
+        Press <br>
+        Corporate Information <br>
+       </p>
+     </div>
+     <div class="col-lg">
+       <p class="text-secondary">GROUP COMPANIES <br> </p>
+       <p class="text-light">
+        Myntra <br>
+        Flipkart Wholesale <br>
+        Cleartrip<br>
+        Shopsy <br>
+       </p>
+     </div>
+     <div class="col-lg">
+       <p class="text-secondary"> HELP <br></p>
+       <p class="text-light">
+       Payments <br>
+       Shipping <br>
+       Cancellations & Returns <br>
+       FAQ <br>
+       Report Infringement <br>
+       </p>
+     </div>
+     <div class="col-lg">
+       <p class="text-secondary">CONSUMER POLICY <br> </p>
+       <p class="text-light">
+        Cancellations & Returns<br> 
+        Terms Of Use <br>
+        Security<br>
+        Privacy <br>
+        Sitemap <br>
+        Grievance Redressal <br>
+        EPR Compliance
+       </p>
+     </div> 
+     <div class="col-lg">
+       <p class="text-secondary"> Mail Us : <br></p>
+       <p class="text-light">
+       Flipkart Internet Private Limited, <br> 
+       Buildings Alyssa, Begonia <br>
+       Clove Embassy Tech Village, <br>
+       Outer Ring Road, Devarabeesanahalli Village, <br>
+       Bengaluru, 560103, <br>
+       Karnataka, India
+       </p> 
+        <p class="text-secondary">Social :</p>
+        <p> <i class='bx bxl-facebook' style='color:#75438e'  ></i>  <i class='bx bxl-twitter' style='color:#75438e' ></i> <i class='bx bxl-youtube' style='color:#75438e' ></i> </p>
+     </div> 
+     <div class="col-lg">
+       <p class="text-secondary">Registered Office Address <br></p>
+       <p class="text-light">
+       Flipkart Internet Private Limited, <br> 
+       Buildings Alyssa, Begonia & <br>
+       Clove Embassy Tech Village, <br>
+       Outer Ring Road, Devarabeesanahalli Village, <br>
+       Bengaluru, 560103, <br>
+       Karnataka, India
+       CIN : U51109KA2012PTC066107
+       Telephone : <span class="text-info">044-45614700</span>
+       </p>
+     </div> 
+     <hr width="500px" color="grey" size="5">
+   </div>
+   <div class="row p-3 bg-dark">
+     <div class="col-lg">
+      <p class="text-light"><i class='bx bx-store' style='color:#8f4298'  ></i>  Become a seller </p>
+     </div>
+     <div class="col-lg">
+      <p class="text-light"><i class='bx bxs-star' style='color:#8d4496'  ></i>  Advertise </p>
+     </div>
+     <div class="col-lg">
+      <p class="text-light"><i class='bx bxs-gift' style='color:#8d4496' ></i> Gift Cards </p>
+     </div>
+     <div class="col-lg">
+      <p class="text-light"><i class='bx bxs-help-circle' style='color:#8d4496' ></i>  Help Center </p>
+     </div>
+     <div class="col-lg">
+      <p class="text-light"> &copy; 2007 - 2024 Flipkart.com</p>  
+     </div>
+   </div>
+ </footer>
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</html>

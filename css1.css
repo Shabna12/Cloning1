@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: lightgrey; */
+}
+#nav1{
+    background-color: white;
+    /* margin: 0 0 0 0; */
+    /* border: 5px; */
+}
+#upicon{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+/* #long{
+    width: 500px;
+} */
+
+.nav-item:hover{
+    color: blue;
+    border: 2px solid;
+}
+
+
+
+#one{
+    background-color: white;
+    /* border: solid 1px;
+    width: 50px;
+    height: 20px ; */
+}
+.p1{
+    margin-left: 18px;
+}
+.p2{
+    margin-left: 5px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.image1{
+    margin-left: 15px;
+}
+.image2{
+    margin-left: 10px;
+}
+.image3{
+    margin-left: 10px;
+}
+.image4{
+    margin-left: 10px;
+}
+.image5{
+    margin-left: 10px;
+}
+.image6{
+    margin-left: 10px;
+}
+.image7{
+    margin-left: 10px;
+}
+.image8{
+    margin-left: 10px;
+}
+.image9{
+    margin-left: 10px;
+}
+.card-wrapper{
+    display: flex;
+}
+#card1{
+    margin: 0px 5px;
+    width: calc(100%/5);
+    height: 300px;
+    padding: 5px;
+}
+#sideicon{
+    margin-left: 400px;
+    position: absolute;
+    margin-top: -30px;
+    width: 40px;
+    height: 40px;
+    /* border: solid 1px; */
+}
+.moni{
+    margin-top: 15px;
+}
+.coffee{
+    margin-top: 20px;
+}
+.teddy{
+    margin-top: 35px;
+}
+.fl{
+    margin-top: 30px;
+}
+.ec{
+    margin-top: 30px;
+}
+.tea{
+    margin-bottom: -10px;
+}
+.mama{
+    margin-bottom: -10px;
+}
+.massca{
+    margin-bottom: -10px;
+}
+.beauty{
+    margin-top: 20px;
+}
+#travel1{
+    display: flex;
+}
+#side1icon{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: -30px;
+}
+#travel2{
+    display: flex;
+}
+#cardtravel{
+    margin: 10px;
+    width: 200px;
+    height: 280px;
+}
+.samsung{
+    width: 750px;
+    height: 650px;
+}
+.now{
+    position: absolute;
+    margin-left: -600px;
+    margin-top: 300px;
+    border: solid;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: bisque;
+}
+#side2icon{
+    position: absolute;
+    margin-left: 390px;
+    margin-top: -30px;
+}
+#health1{
+    display: flex;
+}
+#health2{
+    display: flex;
+}
+#gift1{
+    display: flex;
+}
+#gift2{
+    display: flex;
+}
+#season1{
+    display: flex;
+}
+#season2{
+    display: flex;
+}
+#setokay{
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+    height: 280px;
+}
+.bedsheet{
+    margin-top: 15px;
+}
+.diya{
+    margin-top: 25px;
+}
+
+.now1{
+    position: absolute;
+    margin-left: -360px;
+    margin-top: 300px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: darkolivegreen;
+}   
+.onit{
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 10px;
+} 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
